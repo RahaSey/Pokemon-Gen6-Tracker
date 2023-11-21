@@ -1,0 +1,162 @@
+2023-11-20 15:38:02.943563: cannot access local variable 'battlewildoppadd' where it is not associated with a value
+2023-11-20 15:38:07.955323: cannot access local variable 'battlewildoppadd' where it is not associated with a value
+2023-11-20 15:38:12.963083: cannot access local variable 'battlewildoppadd' where it is not associated with a value
+2023-11-20 15:38:17.968749: cannot access local variable 'battlewildoppadd' where it is not associated with a value
+2023-11-20 15:38:22.974731: cannot access local variable 'battlewildoppadd' where it is not associated with a value
+2023-11-20 15:38:27.981872: cannot access local variable 'battlewildoppadd' where it is not associated with a value
+2023-11-20 15:38:32.991465: cannot access local variable 'battlewildoppadd' where it is not associated with a value
+2023-11-20 19:35:19.940666: cannot unpack non-iterable NoneType object
+2023-11-20 19:40:47.575940: cannot unpack non-iterable NoneType object
+2023-11-20 19:41:24.944274: cannot unpack non-iterable NoneType object
+2023-11-20 19:41:40.252114: cannot unpack non-iterable NoneType object
+2023-11-20 19:43:03.708861: cannot unpack non-iterable NoneType object
+2023-11-20 19:48:51.585361: invalid command name ".!htmlframe.!tkinterweb"
+2023-11-20 19:51:37.851546: can't invoke "pack" command: application has been destroyed
+2023-11-20 19:51:51.425063: can't invoke "pack" command: application has been destroyed
+2023-11-20 19:52:04.983543: can't invoke "pack" command: application has been destroyed
+2023-11-20 19:52:18.541235: can't invoke "pack" command: application has been destroyed
+2023-11-20 19:52:32.098992: can't invoke "pack" command: application has been destroyed
+2023-11-20 19:52:45.664731: can't invoke "pack" command: application has been destroyed
+2023-11-20 19:52:59.226825: can't invoke "pack" command: application has been destroyed
+2023-11-20 19:53:12.785741: can't invoke "pack" command: application has been destroyed
+2023-11-20 20:27:47.852190: Main window failed to start
+2023-11-20 23:51:50.272803: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 18844 and this is thread id 11316.
+2023-11-21 00:18:06.911817: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 5768 and this is thread id 21204.
+2023-11-21 00:25:22.848742: cannot unpack non-iterable NoneType object
+2023-11-21 00:25:31.889766: cannot unpack non-iterable NoneType object
+2023-11-21 00:25:40.931895: cannot unpack non-iterable NoneType object
+2023-11-21 00:25:49.970649: cannot unpack non-iterable NoneType object
+2023-11-21 00:29:33.673174: cannot unpack non-iterable NoneType object
+2023-11-21 00:30:39.199464: cannot unpack non-iterable NoneType object
+2023-11-21 00:32:45.032779: cannot unpack non-iterable NoneType object
+2023-11-21 00:37:17.628222: list index out of range
+2023-11-21 00:43:57.371435: cannot unpack non-iterable NoneType object
+2023-11-21 00:44:14.380241: cannot unpack non-iterable NoneType object
+2023-11-21 00:45:30.578170: cannot unpack non-iterable NoneType object
+2023-11-21 00:45:47.591495: cannot unpack non-iterable NoneType object
+2023-11-21 00:46:57.233781: cannot unpack non-iterable NoneType object
+2023-11-21 00:47:16.500340: cannot unpack non-iterable NoneType object
+2023-11-21 00:48:02.587613: cannot unpack non-iterable NoneType object
+2023-11-21 00:50:05.247738: cannot unpack non-iterable NoneType object
+2023-11-21 00:51:12.156794: cannot unpack non-iterable NoneType object
+2023-11-21 00:52:21.129907: cannot unpack non-iterable NoneType object
+2023-11-21 00:52:38.144165: cannot unpack non-iterable NoneType object
+2023-11-21 00:52:55.152446: cannot unpack non-iterable NoneType object
+2023-11-21 00:54:46.324638: cannot unpack non-iterable NoneType object
+2023-11-21 00:55:03.338048: cannot unpack non-iterable NoneType object
+2023-11-21 00:55:20.347380: cannot unpack non-iterable NoneType object
+2023-11-21 00:56:07.113895: cannot unpack non-iterable NoneType object
+2023-11-21 00:56:24.129738: cannot unpack non-iterable NoneType object
+2023-11-21 00:56:40.759073: cannot unpack non-iterable NoneType object
+2023-11-21 00:56:57.774466: cannot unpack non-iterable NoneType object
+2023-11-21 00:59:16.238461: cannot unpack non-iterable NoneType object
+2023-11-21 00:59:33.252272: cannot unpack non-iterable NoneType object
+2023-11-21 00:59:50.260830: cannot unpack non-iterable NoneType object
+2023-11-21 01:00:07.269300: cannot unpack non-iterable NoneType object
+2023-11-21 01:05:41.671023: cannot unpack non-iterable NoneType object
+2023-11-21 01:05:58.685334: cannot unpack non-iterable NoneType object
+2023-11-21 01:06:15.693122: cannot unpack non-iterable NoneType object
+2023-11-21 01:07:09.721256: cannot unpack non-iterable NoneType object
+2023-11-21 01:08:06.127753: cannot unpack non-iterable NoneType object
+2023-11-21 01:08:20.837189: cannot unpack non-iterable NoneType object
+2023-11-21 01:09:42.907065: cannot unpack non-iterable NoneType object
+2023-11-21 01:09:56.743687: cannot unpack non-iterable NoneType object
+2023-11-21 01:10:14.865004: cannot unpack non-iterable NoneType object
+2023-11-21 01:14:28.558638: cannot unpack non-iterable NoneType object
+2023-11-21 01:26:01.079355: cannot unpack non-iterable NoneType object
+2023-11-21 01:26:18.094514: cannot unpack non-iterable NoneType object
+2023-11-21 01:30:06.416221: cannot unpack non-iterable NoneType object
+2023-11-21 01:30:44.245388: cannot unpack non-iterable NoneType object
+2023-11-21 01:31:31.256458: cannot unpack non-iterable NoneType object
+2023-11-21 01:32:27.985756: cannot unpack non-iterable NoneType object
+2023-11-21 01:34:05.388786: cannot unpack non-iterable NoneType object
+2023-11-21 01:37:54.059671: cannot unpack non-iterable NoneType object
+2023-11-21 01:39:07.084410: cannot unpack non-iterable NoneType object
+2023-11-21 01:39:55.655009: cannot unpack non-iterable NoneType object
+2023-11-21 01:40:12.668899: cannot unpack non-iterable NoneType object
+2023-11-21 01:45:20.690783: cannot unpack non-iterable NoneType object
+2023-11-21 01:45:37.768442: cannot unpack non-iterable NoneType object
+2023-11-21 01:45:54.836512: cannot unpack non-iterable NoneType object
+2023-11-21 01:46:11.913855: cannot unpack non-iterable NoneType object
+2023-11-21 01:46:28.977586: cannot unpack non-iterable NoneType object
+2023-11-21 01:46:46.040979: cannot unpack non-iterable NoneType object
+2023-11-21 01:47:03.107008: cannot unpack non-iterable NoneType object
+2023-11-21 01:47:20.173345: cannot unpack non-iterable NoneType object
+2023-11-21 01:47:37.236486: cannot unpack non-iterable NoneType object
+2023-11-21 01:47:54.305976: cannot unpack non-iterable NoneType object
+2023-11-21 01:48:11.373807: cannot unpack non-iterable NoneType object
+2023-11-21 01:48:28.450620: cannot unpack non-iterable NoneType object
+2023-11-21 01:48:45.518596: cannot unpack non-iterable NoneType object
+2023-11-21 01:51:21.826587: cannot unpack non-iterable NoneType object
+2023-11-21 01:51:38.897782: cannot unpack non-iterable NoneType object
+2023-11-21 01:51:55.985066: cannot unpack non-iterable NoneType object
+2023-11-21 01:52:13.068837: cannot unpack non-iterable NoneType object
+2023-11-21 01:52:30.136924: cannot unpack non-iterable NoneType object
+2023-11-21 01:52:47.209436: cannot unpack non-iterable NoneType object
+2023-11-21 01:55:09.161763: cannot unpack non-iterable NoneType object
+2023-11-21 01:55:26.233191: cannot unpack non-iterable NoneType object
+2023-11-21 01:55:43.300116: cannot unpack non-iterable NoneType object
+2023-11-21 01:56:00.377741: cannot unpack non-iterable NoneType object
+2023-11-21 01:56:17.443345: cannot unpack non-iterable NoneType object
+2023-11-21 01:56:34.519503: cannot unpack non-iterable NoneType object
+2023-11-21 01:56:51.593150: cannot unpack non-iterable NoneType object
+2023-11-21 01:58:52.736787: cannot unpack non-iterable NoneType object
+2023-11-21 01:59:09.811241: cannot unpack non-iterable NoneType object
+2023-11-21 01:59:26.887507: cannot unpack non-iterable NoneType object
+2023-11-21 01:59:43.958381: cannot unpack non-iterable NoneType object
+2023-11-21 02:00:01.031883: cannot unpack non-iterable NoneType object
+2023-11-21 02:00:18.107532: cannot unpack non-iterable NoneType object
+2023-11-21 02:03:19.244661: cannot unpack non-iterable NoneType object
+2023-11-21 02:03:26.276041: cannot unpack non-iterable NoneType object
+2023-11-21 02:04:54.349510: cannot unpack non-iterable NoneType object
+2023-11-21 02:07:45.550474: cannot unpack non-iterable NoneType object
+2023-11-21 02:08:02.622136: cannot unpack non-iterable NoneType object
+2023-11-21 02:08:19.691978: cannot unpack non-iterable NoneType object
+2023-11-21 02:08:36.763984: cannot unpack non-iterable NoneType object
+2023-11-21 02:08:53.848115: cannot unpack non-iterable NoneType object
+2023-11-21 02:09:10.927430: cannot unpack non-iterable NoneType object
+2023-11-21 02:09:28.005794: cannot unpack non-iterable NoneType object
+2023-11-21 02:10:59.786726: cannot unpack non-iterable NoneType object
+2023-11-21 02:11:16.855418: cannot unpack non-iterable NoneType object
+2023-11-21 02:11:33.925231: cannot unpack non-iterable NoneType object
+2023-11-21 02:11:50.988348: cannot unpack non-iterable NoneType object
+2023-11-21 02:12:08.053746: cannot unpack non-iterable NoneType object
+2023-11-21 02:12:25.124322: cannot unpack non-iterable NoneType object
+2023-11-21 02:14:26.396857: cannot unpack non-iterable NoneType object
+2023-11-21 02:14:43.485523: cannot unpack non-iterable NoneType object
+2023-11-21 02:15:00.551074: cannot unpack non-iterable NoneType object
+2023-11-21 02:15:17.622836: cannot unpack non-iterable NoneType object
+2023-11-21 02:15:34.691448: cannot unpack non-iterable NoneType object
+2023-11-21 02:15:51.766698: cannot unpack non-iterable NoneType object
+2023-11-21 02:17:38.434308: cannot unpack non-iterable NoneType object
+2023-11-21 02:17:55.510704: cannot unpack non-iterable NoneType object
+2023-11-21 02:18:12.567698: cannot unpack non-iterable NoneType object
+2023-11-21 02:18:29.638747: cannot unpack non-iterable NoneType object
+2023-11-21 02:18:46.698794: cannot unpack non-iterable NoneType object
+2023-11-21 02:19:03.759786: cannot unpack non-iterable NoneType object
+2023-11-21 02:20:45.875811: cannot unpack non-iterable NoneType object
+2023-11-21 02:21:02.933915: cannot unpack non-iterable NoneType object
+2023-11-21 02:21:19.999742: cannot unpack non-iterable NoneType object
+2023-11-21 02:21:37.061323: cannot unpack non-iterable NoneType object
+2023-11-21 02:21:54.135571: cannot unpack non-iterable NoneType object
+2023-11-21 02:22:11.203025: cannot unpack non-iterable NoneType object
+2023-11-21 02:24:14.084655: cannot unpack non-iterable NoneType object
+2023-11-21 02:24:31.140297: cannot unpack non-iterable NoneType object
+2023-11-21 02:24:48.201921: cannot unpack non-iterable NoneType object
+2023-11-21 02:25:05.261604: cannot unpack non-iterable NoneType object
+2023-11-21 02:25:22.321742: cannot unpack non-iterable NoneType object
+2023-11-21 02:25:39.384292: cannot unpack non-iterable NoneType object
+2023-11-21 02:27:25.481289: cannot unpack non-iterable NoneType object
+2023-11-21 02:27:42.540526: cannot unpack non-iterable NoneType object
+2023-11-21 02:27:59.607657: cannot unpack non-iterable NoneType object
+2023-11-21 02:28:16.672702: cannot unpack non-iterable NoneType object
+2023-11-21 02:28:33.734855: cannot unpack non-iterable NoneType object
+2023-11-21 02:28:50.799056: cannot unpack non-iterable NoneType object
+2023-11-21 02:30:12.131124: cannot unpack non-iterable NoneType object
+2023-11-21 02:30:29.191679: cannot unpack non-iterable NoneType object
+2023-11-21 02:30:46.259296: cannot unpack non-iterable NoneType object
+2023-11-21 02:31:03.321691: cannot unpack non-iterable NoneType object
+2023-11-21 02:31:20.392202: cannot unpack non-iterable NoneType object
+2023-11-21 02:31:37.450726: cannot unpack non-iterable NoneType object
+2023-11-21 02:34:07.321957: cannot unpack non-iterable NoneType object
+2023-11-21 02:47:56.364916: cannot access local variable 'battlewildoppadd' where it is not associated with a value
