@@ -185,6 +185,7 @@ body {
 */
 .moves {
   margin-top:-44px;
+  margin-bottom: -18px;
 }
 .move {
   display: grid;
@@ -338,8 +339,6 @@ body {
 }
 .arrow {
   position: absolute;
-  margin-top:-44px;
-  top: 50%;
   font-size: 24px;
   cursor: pointer;
   color: white;

@@ -669,11 +669,12 @@ def launchWindow():
     global window
     global isFrameless
     window = webview.create_window('Helo', url='tracker.html', zoomable=True, frameless=isFrameless, on_top=True, width=385, height=430, resizable=True)
+    window.events.closed += quit
     webview.start(refreshWindow, window) 
 
 def refreshWindow(window):
     while True:
-        time.sleep(2)
+        time.sleep(1)
         makeHtml()
         window.load_url('tracker.html')
 
