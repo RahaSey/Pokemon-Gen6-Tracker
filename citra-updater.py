@@ -674,7 +674,7 @@ def launchWindow():
 
 def refreshWindow(window):
     while True:
-        time.sleep(1)
+        time.sleep(0.5)
         makeHtml()
         window.load_url('tracker.html')
 
@@ -844,7 +844,7 @@ def run():
         print(exc_type, tb[2], tb[1])
         if "cannot unpack non-iterable NoneType object" in str(e):
             print("Waiting for a starter...")
-            time.sleep(15)
+            time.sleep(5)
     finally:
         print("")
 
@@ -1283,7 +1283,7 @@ def makeHtml():
                 if "WinError 10054" in str(e):
                     print("To continue using the tracker, please open a ROM.")
                     print("Waiting for a ROM...")
-                    time.sleep(15)
+                    time.sleep(5)
     except Exception as e:
         print(e)
         with open('errorlog.txt','a+') as f:
@@ -1295,7 +1295,7 @@ def makeHtml():
         print(exc_type, tb[2], tb[1])
         if "cannot unpack non-iterable NoneType object" in str(e):
             print("Waiting for a starter...")
-            time.sleep(15)
+            time.sleep(5)
     finally:
         print("")
 
