@@ -6,14 +6,12 @@ import traceback
 from datetime import datetime
 from citra import Citra
 import tkinter as tk 
-from tkinter import Button
 import webview
-import webview.menu as wm
+from os import path
 
 trackadd=r"trackerdata.json"
 window = any
-isFrameless = False
-
+isOpen = True
 
 def crypt(data, seed, i):
     value = data[i]
@@ -648,9 +646,9 @@ def getaddresses(c):
     else:
         return partyaddress,0,0,0,'p',mongap
 
-def read_party(c,party_address):
+def read_party(c,party_address, cpt = 6):
     party = []    
-    for i in range(6):
+    for i in range(cpt):
         read_address = party_address + (i * SLOT_OFFSET)
         party_data = c.read_memory(read_address, SLOT_DATA_SIZE)
         stats_data = c.read_memory(read_address + SLOT_DATA_SIZE + STAT_DATA_OFFSET, STAT_DATA_SIZE)
@@ -664,16 +662,49 @@ def read_party(c,party_address):
                 pass
     return party
 
+def closeProgram():
+    global window
+    global isOpen
+    isOpen = False
+    url = 'userdata.json'
+    windowProps = {
+        "x": window.x,
+        "y": window.y,
+        "width": window.width,
+        "height": window.height
+    }
+    json_object = json.dumps(windowProps)
+    
+    with open(url, "w+") as outfile:
+        outfile.write(json_object)
+        outfile.close()
+
 def launchWindow():
     tkinter = tk.Tk()
     global window
-    global isFrameless
-    window = webview.create_window('Helo', url='tracker.html', zoomable=True, frameless=isFrameless, on_top=True, width=385, height=430, resizable=True)
+    windowProps = {
+        "x": 0,
+        "y": 0,
+        "width": 765,
+        "height": 460
+    }
+    try:
+        url = 'userdata.json'
+        if path.isfile(url):
+            file = open(url)
+            windowProps = json.load(file)
+            file.close()
+    except Exception as e:
+        e
+
+    window = webview.create_window('Helo', url='tracker.html', zoomable=True, x=windowProps['x'], y=windowProps['y'], on_top=True, width=windowProps['width'], height=windowProps['height'], resizable=True)
+    window.events.closing += closeProgram
     window.events.closed += quit
     webview.start(refreshWindow, window) 
 
 def refreshWindow(window):
-    while True:
+    global isOpen
+    while isOpen:
         time.sleep(0.5)
         makeHtml()
         window.load_url('tracker.html')
@@ -876,8 +907,14 @@ def makeHtml():
                     htmltext='<!DOCTYPE html>\r\n<html>\r\n<head>\r\n\t<title>Gen 6 Tracker</title>\r\n'
                     htmltext+='\t<link rel="stylesheet" type="text/css" href="tracker.css">\r\n</head>\r\n<body>'
                     party1=read_party(c,partyadd)
+                    allyPartySize = 0
+                    for i in party1:
+                        if i.raw_data != '':
+                            allyPartySize += 1
+                    for i in range(5):
+                        party1.pop()
                     party2=read_party(c,enemyadd)
-                    party=party1+party2
+                    party = party1+party2
                     pk=1
                     #print('read party... performing loop')
                     htmltext+='<div id="party">\r\n'
@@ -899,7 +936,7 @@ def makeHtml():
                     enemytypes=[]
                     try:
                         if gen==6:
-                            pke=pkmnindex+len(party1)
+                            pke=pkmnindex+allyPartySize
                         elif gen==7:
                             pke=pkmnindex+12
                         typereadere=c.read_memory(ppadd+(mongap*(pke-1))-(2*(gen+6)),2) #(2*(gen+6))
@@ -915,7 +952,7 @@ def makeHtml():
                                 continue
                             if pkmn in party2:
                                 if gen==6:
-                                    pk=pkmnindex+len(party1)
+                                    pk=pkmnindex+allyPartySize
                                 elif gen==7:
                                     pk=pkmnindex+12
                             if enctype!='p':
@@ -936,7 +973,6 @@ def makeHtml():
                                 htmltext+='<div class="pokemon-top-left-block">\r\n\t'
                                 htmltext+=f'<div class="sprite">\r\n\t<img src="{pkmn.spriteurl}" data-src="{pkmn.spriteurl}" width="80" height="80" alt="{pkmn.name} sprite">\r\n</div>\r\n\t'
                                 htmltext+='     <div class="species">\r\n\t\t'
-                                htmltext+='         <div class="slot-number">Slot '+str(party.index(pkmn)+1)+'</div>\r\n\t\t'
                                 htmltext+='         <div class="species-number">#'+str(pkmn.species_num())+'</div>\r\n\t\t'
                                 if pkmn in party2:
                                     pkd=2
@@ -1176,7 +1212,6 @@ def makeHtml():
                                 htmltext+='<div class="pokemon-top-left-block">\r\n\t'
                                 htmltext+=f'<div class="sprite">\r\n\t<img src="images/homemodels/{pkmn.name}.png" data-src="images/homemodels/{pkmn.name}" width="80" height="80" alt="{pkmn.name} sprite">\r\n</div>\r\n\t'
                                 htmltext+='     <div class="species">\r\n\t\t'
-                                htmltext+='         <div class="slot-number">Slot '+str(party.index(pkmn)+1)+'</div>\r\n\t\t'
                                 htmltext+='         <div class="species-number">#'+str(pkmn.species_num())+'</div>\r\n\t\t'
                                 htmltext+='         <div class="species-name">'+pkmn.name.replace("Farfetchd","Farfetch&#x27;d")+'</div>\r\n'
                                 htmltext+='     </div>\r\n' ## close species

@@ -21,7 +21,7 @@ body {
   width:120px;
   height:120px;
   margin-bottom:-90px;
-  margin-left:42px;
+  margin-left:80px;
 }
 .species {
   display:block;
@@ -128,7 +128,7 @@ body {
 .stats {
   display: flex;
   flex-wrap: wrap;
-  margin-left:22px;
+  margin-left:26px;
   margin-top:2px;
   width: 150px;
 }
@@ -137,6 +137,7 @@ body {
   grid-template-columns: 75px 35px 35px 0;
   grid-gap: 2px;
   margin-right: 1px;
+  margin-left: 20px;
   flex-basis: 100%;
   margin-top:6px;
 }
@@ -185,6 +186,7 @@ body {
 */
 .moves {
   margin-top:-44px;
+  margin-left: 8px;
   margin-bottom: -18px;
 }
 .move {
