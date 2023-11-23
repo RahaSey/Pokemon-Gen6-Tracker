@@ -1227,10 +1227,10 @@ def makeHtml():
                                     # evotype = ('' if not pkmn.evotype else pkmn.evotype)
                                     evoitem = ('' if not pkmn.evoitem else 'w/'+pkmn.evoitem)
                                     evofriend = ('' if pkmn.evotype != 'Friendship' else 'w/ high friendship')
-                                    evolevel = ('' if not pkmn.evolevel else '@ level '+str(int(pkmn.evolevel)))
+                                    evolevel = ('' if not pkmn.evolevel else 'level '+str(int(pkmn.evolevel)))
                                     evostring = ('' if not pkmn.evostring else pkmn.evostring)
                                     evoloc = ('' if not pkmn.evolocation else 'in '+pkmn.evolocation)
-                                    evohtml=f'<div class="evoarrow">></div><div class="evo">Evolves {evoitem} {evofriend} {evolevel} {evostring} {evoloc}</div>'
+                                    evohtml=f'<div class="evoarrow">><div class="evo">Evolves {evoitem} {evofriend} {evolevel} {evostring} {evoloc}</div></div>'
                                 else:
                                     evohtml=''
                                 htmltext+=f'     <div class="level mstat"><span class="level name">Level: </span><span class="levelvalue"><span class="seenat">Seen at:{trackdata[pkmn.name]["levels"]}</span>{str(pkmn.level)}</span>{evohtml}</div>\r\n\t'

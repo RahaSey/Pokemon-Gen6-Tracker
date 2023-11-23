@@ -83,7 +83,7 @@ body {
   color:darkgoldenrod;
 }
 .evoarrow {
-  margin:0;
+  margin-left:3px;
   display:inline;
   font-weight: bolder;
   color:darkgoldenrod;
@@ -100,7 +100,7 @@ body {
   border-radius: 6px;
   z-index: 1;
 }
-.evohtml:hover .evo {
+.evoarrow:hover .evo {
   visibility: visible;
 }
 .ability .description {
