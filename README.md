@@ -16,4 +16,6 @@ Once Python is installed, we need the pywebview module. Open a terminal :
 
 In the terminal, write `pip install pywebview` 
 
+if this command doesn'T work, it means you didn't check "Add Python to PATH" as shown in the screenshot.
+
 ### 3: Prepare Scripting folder
