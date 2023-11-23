@@ -705,7 +705,7 @@ def launchWindow():
 def refreshWindow(window):
     global isOpen
     while isOpen:
-        time.sleep(0.5)
+        time.sleep(1)
         makeHtml()
         window.load_url('tracker.html')
 
@@ -908,11 +908,25 @@ def makeHtml():
                     htmltext+='\t<link rel="stylesheet" type="text/css" href="tracker.css">\r\n</head>\r\n<body>'
                     party1=read_party(c,partyadd)
                     allyPartySize = 0
+                    highestLvlIndex = 0
+                    highLvl = 0
                     for i in party1:
                         if i.raw_data != '':
+                            i.getAtts(gamegroupid,gen)
                             allyPartySize += 1
+                            if i.level > highLvl:
+                                highLvl = i.level
+                                highestLvlIndex = party1.index(i)
+                    before = True
                     for i in range(5):
-                        party1.pop()
+                        if i != highestLvlIndex:
+                            if before:
+                                party1.pop(0)
+                            else:
+                                party1.pop(1)
+                        else:
+                            before = False
+                            party1.pop(1)
                     party2=read_party(c,enemyadd)
                     party = party1+party2
                     pk=1
