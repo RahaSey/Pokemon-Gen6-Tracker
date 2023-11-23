@@ -69,6 +69,7 @@ body {
   border-bottom: 1px dotted black;
   visibility: hidden;
   max-width: 220px;
+  margin-top: 14px;
   background-color: black;
   color: #fff;
   text-align: center;
@@ -93,12 +94,14 @@ body {
   border-bottom: 1px dotted black;
   visibility: hidden;
   max-width: 220px;
+  margin-left: 20px;
   background-color: black;
   color: #fff;
   text-align: center;
   padding: 5px 0;
   border-radius: 6px;
   z-index: 1;
+  font-weight: lighter
 }
 .evoarrow:hover .evo {
   visibility: visible;
