@@ -907,16 +907,22 @@ def makeHtml():
                     htmltext='<!DOCTYPE html>\r\n<html>\r\n<head>\r\n\t<title>Gen 6 Tracker</title>\r\n'
                     htmltext+='\t<link rel="stylesheet" type="text/css" href="tracker.css">\r\n</head>\r\n<body>'
                     party1=read_party(c,partyadd)
+                    party2=read_party(c,enemyadd)
                     allyPartySize = 0
+                    enemyPartySize = 0
                     highestLvlIndex = 0
                     highLvl = 0
+                    for i in party2:
+                        if i.raw_data != '':
+                            enemyPartySize += 1
                     for i in party1:
                         if i.raw_data != '':
-                            i.getAtts(gamegroupid,gen)
                             allyPartySize += 1
-                            if i.level > highLvl:
-                                highLvl = i.level
-                                highestLvlIndex = party1.index(i)
+                            if enemyPartySize == 0:
+                                i.getAtts(gamegroupid,gen)
+                                if i.level >= highLvl:
+                                    highLvl = i.level
+                                    highestLvlIndex = party1.index(i)
                     before = True
                     for i in range(5):
                         if i != highestLvlIndex:
@@ -927,7 +933,6 @@ def makeHtml():
                         else:
                             before = False
                             party1.pop(1)
-                    party2=read_party(c,enemyadd)
                     party = party1+party2
                     pk=1
                     #print('read party... performing loop')
