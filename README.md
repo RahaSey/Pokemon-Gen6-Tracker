@@ -23,7 +23,7 @@ Now that Python is ready, you can Download the [Tracker](https://github.com/Raha
 
 ![image](https://github.com/RahaSey/Pokemon-Gen6-Tracker/assets/151651225/b23312a1-552a-43aa-906e-6dbb26e6a3dc)
 
-Extract it where you want your Tracker to be, for example on the Desktop. So you would have "Desktop\Pokemon-Gen6-Tracker-v0.1"
+Extract it where you want your Tracker to be, for example on the Desktop. So you would have "Desktop\Pokemon-Gen6-Tracker-v0.1" for example.
 
 ### 4: Download Citra scripting file
 The tracker will not work yet. We still need the [citra.py](https://github.com/citra-emu/citra/blob/master/dist/scripting/citra.py) file. Just click on "Download raw file"
@@ -32,3 +32,7 @@ The tracker will not work yet. We still need the [citra.py](https://github.com/c
 
 You just need to put this file in the extracted Tracker folder, so "Desktop\Pokemon-Gen6-Tracker-v0.1\citra.py"
 
+### 5: Start the Tracker
+To start the tracker, you just need to double click on "citra-updater.py". In the tracker, you can move the window, resize the window and Zoom with Ctrl + mouse wheel.
+
+### 6: IMPORTANT
