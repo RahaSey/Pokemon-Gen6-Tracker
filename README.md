@@ -1,5 +1,5 @@
 # Pokemon-Gen6-Tracker
-Kaizo tracker for gen 6 and 7 modified
+Kaizo tracker for the Citra emulator for gen 6 and 7 modified
 
 All Credits to [accruenewblue](https://github.com/accruenewblue) for the [code](https://github.com/accruenewblue/Citra-Tracker), i just made it so you don't need to use your web browser to use the tracker.
 
@@ -23,7 +23,12 @@ Now that Python is ready, you can Download the [Tracker](https://github.com/Raha
 
 ![image](https://github.com/RahaSey/Pokemon-Gen6-Tracker/assets/151651225/b23312a1-552a-43aa-906e-6dbb26e6a3dc)
 
-Extract it where you want your Tracker to be, for example on the Desktop.
+Extract it where you want your Tracker to be, for example on the Desktop. So you would have "Desktop\Pokemon-Gen6-Tracker-v0.1"
 
 ### 4: Download Citra scripting file
+The tracker will not work yet. We still need the [citra.py](https://github.com/citra-emu/citra/blob/master/dist/scripting/citra.py) file. Just click on "Download raw file"
+
+![image](https://github.com/RahaSey/Pokemon-Gen6-Tracker/assets/151651225/fa390b60-dbb9-4657-9db8-f23430f65cbd)
+
+You just need to put this file in the extracted Tracker folder, so "Desktop\Pokemon-Gen6-Tracker-v0.1\citra.py"
 
