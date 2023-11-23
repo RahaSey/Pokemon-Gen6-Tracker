@@ -16,6 +16,14 @@ Once Python is installed, we need the pywebview module. Open a terminal :
 
 In the terminal, write `pip install pywebview` 
 
-if this command doesn'T work, it means you didn't check "Add Python to PATH" as shown in the screenshot.
+if this command doesn't work, it means you didn't check "Add Python to PATH" as shown in the screenshot.
 
-### 3: Prepare Scripting folder
+### 3: Download Tracker
+Now that Python is ready, you can Download the [Tracker](https://github.com/RahaSey/Pokemon-Gen6-Tracker/releases/tag/v0.1). Just click on the first zip folder
+
+![image](https://github.com/RahaSey/Pokemon-Gen6-Tracker/assets/151651225/b23312a1-552a-43aa-906e-6dbb26e6a3dc)
+
+Extract it where you want your Tracker to be, for example on the Desktop.
+
+### 4: Download Citra scripting file
+
