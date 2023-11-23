@@ -35,4 +35,12 @@ You just need to put this file in the extracted Tracker folder, so "Desktop\Poke
 ### 5: Start the Tracker
 To start the tracker, you just need to double click on "citra-updater.py". In the tracker, you can move the window, resize the window and Zoom with Ctrl + mouse wheel.
 
+**CAREFUL** : This tracker displays the highest lvl pokemon, so when pivoting, you might see the wrong pokemon for a few level. Also, be careful with the arrows on the tracker, which let you see the opposing pokemon. If the trainer has more than 1 pokemon, you are able to see all of them, so i suggest to only use the right arrow.
+
 ### 6: IMPORTANT
+This tracker is new and has a few problems, which might take a while to fix. Here are some problems i've had and how to fix:
+
+#### The tracker won't update for some reason
+Sometimes, it happens and i'm still not sure why. The easiest fix is to close the Tracker and run it again.
+
+#### The tracker 
