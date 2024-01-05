@@ -45,5 +45,3 @@ Sometimes, it happens and i'm still not sure why. The easiest fix is to close th
 
 #### The tracker won't update in some specific battles
 I'm also not sure why, but some pokemon makes the tracker unhappy and will not update during that battle. Still no fix, just beat him and it will be back to normal.
-
-#### If you get any other problems, you can contact me on Discord (MasterKraft Drill#6724) or make an [issue](https://github.com/RahaSey/Pokemon-Gen6-Tracker/issues)
